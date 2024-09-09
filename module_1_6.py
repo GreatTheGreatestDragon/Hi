@@ -1,0 +1,15 @@
+my_dict = {'Kilfa' : 20110001, 'Lesly':55221145220, 'Harley' : 6556567411}
+print(my_dict)
+print(my_dict['Lesly'], my_dict.get('Sasha', 'Без ошибки'))
+my_dict.update({'Sanya': 1235481354, "Sanya Verny Kasar": 88465755546})
+print(my_dict)
+a = my_dict.pop('Harley')
+b = my_dict.pop('Lesly')
+print(a,b)
+print(my_dict)
+my_set = {1,2,3,1,1,2,'Fasle', True, (1,2,3)}
+print(my_set)
+print(my_set.add(9,))
+print(my_set.add(12))
+print(my_set.remove((1,2,3)))
+print(my_set)
